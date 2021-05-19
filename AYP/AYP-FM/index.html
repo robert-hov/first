@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYPIndex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="ayp-body">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="1h6LzOni"></script>
+    <header class="ayp-header">
+        <div class="ayp-nav-container">
+            <div class="ayp-container ayp-nav-inner">
+                <a href="#" class="ayp-logo-a"><img src="/img/nav/Group 324.svg"  alt="page logo" class="ayp-logo"></a>
+                <div class="ayp-nav-container-inner">
+                    <ul class="ayp-nav-top">
+                        <li class="ayp-nav-top-item ayp-nav-top-left"><a class="ayp-nav-top-a" href="#"><img class="ayp-nav-logo" src="img/nav/phone.png" alt="phone logo">01 43 53 19 90</a></li>
+                        <li class="ayp-nav-top-item">
+                            <a class="ayp-nav-top-a" href="#">Follow Us 
+                                <img class="ayp-nav-logo" src="img/nav/facebook.png" alt="facebook logo">
+                                <img class="ayp-nav-logo" src="img/nav/twitter.png" alt="twitter logo">
+                                <img class="ayp-nav-logo" src="img/nav/instagram.png" alt="instagram logo">
+                            </a></li>
+                    </ul>
+                    <nav class="ayp-nav">
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Accueil
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Programmes
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Qui Sommes Nous
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Publicité
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Club VIP
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Écrivez-Nous
+                            </a>
+                        </li>
+                    </nav>
+                </div>
+                <button class="ayp-nav-burger-btn-container">
+                    <input type="checkbox" class="ayp-nav-btn-check" id='ayp-nav-check'>
+                    <label for="ayp-nav-check"  class="ayp-nav-btn-label">
+                        <p class="ayp-nav-btn-line"></p>
+                        <p class="ayp-nav-btn-line"></p>
+                        <p class="ayp-nav-btn-line"></p>
+                    </label>
+                </button>
+            </div>
+        </div>
+        <div class="ayp-header-info">
+            <div class="ayp-header-info-inner">
+                <h1 class="ayp-header-title">bIENVENUE</h1>
+                <h2 class="ayp-header-sub text-center">SUR LE NOUVEAU <br>
+                    SITE DE <span class="ayp-header-sub--blue">ayp</span> <span class="ayp-header-sub--orange"> fm</span></h2>
+            </div>
+            <div class="ayp-header-info-icons">
+                <div class="ayp-header-info-icons-item ayp--blue">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/001-facebook.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+                <div class="ayp-header-info-icons-item ayp--light-blue">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/002-twitter.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+                <div class="ayp-header-info-icons-item ayp--pink">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/003-instagram.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ayp-audio-container">
+        <img src="img/audio/Group 164.png" alt="audio image" class="ayp-audio-img">
+    </div>
+    <section class="ayp-search">
+        <form class="ayp-search-form" action="get">
+            <input type="text" placeholder="Recherche par nom de programme, nom d'hôte" class="ayp-search-input">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+    </section>
+    <section class="ayp-shows">
+        <div class="ayp-shows-container ayp-container">
+            <div class="ayp-title-container">
+                <h3 class="ayp-box-title">Nos Émissions</h3>
+                <div class="ayp-title-inner-container">
+                    <ul class="ayp-title-list">
+                        <li class="ayp-title-item">
+                            <a href="#" class="ayp-title-item-a">
+                                Voir Tout
+                            </a>
+                        </li>
+                        <li class="ayp-title-item">
+                            <a href="#" class="ayp-title-item-a">
+                                Journal FR
+                            </a>
+                        </li>
+                        <li class="ayp-title-item">
+                            <a href="#" class="ayp-title-item-a">
+                                Journal AM
+                            </a>
+                        </li>
+                        <li class="ayp-title-item">
+                            <a href="#" class="ayp-title-item-a active">
+                                Français
+                            </a>
+                        </li>
+                        <li class="ayp-title-item">
+                            <a href="#" class="ayp-title-item-a">
+                                Arménien
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="ayp-pagination-container">
+                        <div class="swiper-button-prev shows-swiper-button-prev box-swiper-button-prev"></div>
+                        <div class="swiper-button-next shows-swiper-button-next box-swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container ayp-shows-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault (1).png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 7 Mars 2020</p>
+                        <p class="ayp-shows-swiper-title">ELECTIONS MUNICIPALES</p>
+                        <p class="ayp-shows-swiper-sub">Aujourd'hui</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault (2).png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 29 Fev 20</p>
+                        <p class="ayp-shows-swiper-title">DJAVAKHK</p>
+                        <p class="ayp-shows-swiper-sub">02/03/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault (3).png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 15 Fev 2020</p>
+                        <p class="ayp-shows-swiper-title">Manifestations populaires...</p>
+                        <p class="ayp-shows-swiper-sub">02/03/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault.png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 22 Fev 2020</p>
+                        <p class="ayp-shows-swiper-title">UMAF : Rétrospective...</p>
+                        <p class="ayp-shows-swiper-sub">27/02/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault (2).png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 29 Fev 20</p>
+                        <p class="ayp-shows-swiper-title">DJAVAKHK</p>
+                        <p class="ayp-shows-swiper-sub">02/03/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault (3).png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 15 Fev 2020</p>
+                        <p class="ayp-shows-swiper-title">Manifestations populaires...</p>
+                        <p class="ayp-shows-swiper-sub">02/03/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-shows">
+                        <div class="ayp-shows-img-container">
+                            <img src="img/shows/sddefault.png" alt="slider pic" class="ayp-shows-img">
+                        </div>
+                        <p class="ayp-shows-date">CST 22 Fev 2020</p>
+                        <p class="ayp-shows-swiper-title">UMAF : Rétrospective...</p>
+                        <p class="ayp-shows-swiper-sub">27/02/2020</p>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="ayp-shows-pagination-container ayp-box-pagination container">
+                    <div class="swiper-pagination ayp-shows-pagination ayp-box-pagination"></div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="ayp-podcasts">
+        <div class="ayp-podcasts-container ayp-container">
+            <div class="ayp-title-container">
+                <h3 class="ayp-box-title ayp-box-title">Derniers Podcasts</h3>
+                <div class="ayp-title-inner-container">
+                    <p class="ayp-box-sub">Voir Tout</p>
+                    <div class="ayp-pagination-container">
+                        <div class="swiper-button-prev podcasts-swiper-button-prev box-swiper-button-prev"></div>
+                        <div class="swiper-button-next podcasts-swiper-button-next box-swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container ayp-podcasts-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Harout Sassounian</p>
+                        <p class="ayp-podcasts-swiper-title">Harout Sassounian</p>
+                        <p class="ayp-podcasts-swiper-sub">Aujourd'hui</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Poésie Arménienne</p>
+                        <p class="ayp-podcasts-swiper-title">Albert Assaderian</p>
+                        <p class="ayp-podcasts-swiper-sub">28/05/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Havadamk</p>
+                        <p class="ayp-podcasts-swiper-title">Père Diraïr Keledjian</p>
+                        <p class="ayp-podcasts-swiper-sub">27/05/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">La Chanson comme...</p>
+                        <p class="ayp-podcasts-swiper-title">Paulette Djadjikian</p>
+                        <p class="ayp-podcasts-swiper-sub">27/05/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Yerkaran Hayotz</p>
+                        <p class="ayp-podcasts-swiper-title">Edward Barseghian</p>
+                        <p class="ayp-podcasts-swiper-sub">27/05/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Ayp fm Antsou tarz</p>
+                        <p class="ayp-podcasts-swiper-title">Artak Tadevossian et ...</p>
+                        <p class="ayp-podcasts-swiper-sub">26/05/2020</p>
+                    </div>
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Batmagan Antsoutardz</p>
+                        <p class="ayp-podcasts-swiper-title">Hasmig Gulamirian</p>
+                        <p class="ayp-podcasts-swiper-sub">25/05/2020</p>
+                    </div>   
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Batmagan Antsoutardz</p>
+                        <p class="ayp-podcasts-swiper-title">Hasmig Gulamirian</p>
+                        <p class="ayp-podcasts-swiper-sub">25/05/2020</p>
+                    </div>   
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Batmagan Antsoutardz</p>
+                        <p class="ayp-podcasts-swiper-title">Hasmig Gulamirian</p>
+                        <p class="ayp-podcasts-swiper-sub">25/05/2020</p>
+                    </div>   
+                    <div class="swiper-slide ayp-podcasts">
+                        <p class="ayp-podcasts-date">Batmagan Antsoutardz</p>
+                        <p class="ayp-podcasts-swiper-title">Hasmig Gulamirian</p>
+                        <p class="ayp-podcasts-swiper-sub">25/05/2020</p>
+                    </div>   
+                </div>
+                <div class="ayp-podcasts-pagination-container">
+                    <div class="swiper-pagination ayp-podcasts-pagination ayp-box-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ayp-clips">
+        <div class="ayp-clips-container ayp-container">
+            <div class="ayp-title-container">
+                <h3 class="ayp-box-title ayp-box-title">Nos Clips</h3>
+                <div class="ayp-title-inner-container">
+                    <p class="ayp-box-sub">Voir Tout</p>
+                    <div class="ayp-pagination-container">
+                        <div class="swiper-button-prev clips-swiper-button-prev box-swiper-button-prev"></div>
+                        <div class="swiper-button-next clips-swiper-button-next box-swiper-button-next"></div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="swiper-container ayp-clips-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/3.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> PreGomesh</p>
+                        <p class="ayp-clips-swiper-name">Sirusho</p>
+                        <p class="ayp-clips-swiper-time">4:01 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/4.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Yeraguyn</p>
+                        <p class="ayp-clips-swiper-name">Razmik Amyan</p>
+                        <p class="ayp-clips-swiper-time">4:46 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/2.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Haratev Kriv</p>
+                        <p class="ayp-clips-swiper-name">Kevork Hadjan</p>
+                        <p class="ayp-clips-swiper-time">5:02 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/5.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Armenian Wedding</p>
+                        <p class="ayp-clips-swiper-name">Tigran Asatryan</p>
+                        <p class="ayp-clips-swiper-time">3:28 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/4.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Yeraguyn</p>
+                        <p class="ayp-clips-swiper-name">Razmik Amyan</p>
+                        <p class="ayp-clips-swiper-time">4:46 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/2.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Haratev Kriv</p>
+                        <p class="ayp-clips-swiper-name">Kevork Hadjan</p>
+                        <p class="ayp-clips-swiper-time">5:02 mins</p>
+                    </div>
+                    <div class="swiper-slide ayp-clips">
+                        <div class="ayp-clips-img-container">
+                            <img src="img/clips/5.png" alt="slider pic" class="ayp-clips-img">
+                        </div>
+                        <p class="ayp-clips-swiper-title"><img src="img/clips/svgexport-25.svg" alt="swiper icon" class="ayp-clips-swiper-icon"> Armenian Wedding</p>
+                        <p class="ayp-clips-swiper-name">Tigran Asatryan</p>
+                        <p class="ayp-clips-swiper-time">3:28 mins</p>
+                    </div>
+                </div>
+                <div class="ayp-clips-pagination-container">
+                    <div class="swiper-pagination ayp-clips-pagination ayp-box-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ayp-fm">
+        <div class="ayp-fm-container ayp-container">
+            <div class="ayp-fm-title-container">
+                <h3 class="ayp-fm-title ayp-box-title">AYP FM</h3>
+            </div>
+            <div class="ayp-fm-block-container">
+                <div class="ayp-fm-block">
+                    <img src="img/fm/Group 454.png" alt="fm image" class="ayp-fm-img">
+                </div>
+                <div class="ayp-fm-block">
+                    <img src="img/fm/Group 455.png" alt="fm image" class="ayp-fm-img">
+                </div>
+                <div class="ayp-fm-block ayp-fm-block--big">
+                    <img src="img/fm/Group 457.png" alt="fm image" class="ayp-fm-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ayp-advertisers">
+        <div class="ayp-container ayp-advertisers-container">
+            <div class="ayp-advertisers-title-container">
+                <h3 class="ayp-advertisers-title ayp-box-title">Nos Annonceurs</h3>
+            </div>
+            <div class="ayp-advertisers-block-container">
+                <div class="ayp-advertisers-block">
+                    <img src="img/advertisers/NoPath - Copie (19).png" alt="ayp advertisers img" class="ayp-advertisers-img">
+                </div>
+                <div class="ayp-advertisers-block">
+                    <img src="img/advertisers/NoPath - Copie (20).png" alt="ayp advertisers img" class="ayp-advertisers-img">
+                </div>
+                <div class="ayp-advertisers-block">
+                    <img src="img/advertisers/NoPath - Copie (21).png" alt="ayp advertisers img" class="ayp-advertisers-img">
+                </div>
+                <div class="ayp-advertisers-block">
+                    <img src="img/advertisers/pu_annonce.png" alt="ayp advertisers img" class="ayp-advertisers-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="ayp-network">
+        <div class="ayp-container ayp-network-container">
+            <div class="ayp-network-title-container">
+                <h3 class="ayp-network-title">Nos Reseaux</h3>
+            </div>
+            <div class="ayp-network-blocks-container">
+                <div class="ayp-network-block --twitter">
+                    <a class="twitter-timeline" href="https://twitter.com/AYPFM?ref_src=twsrc%5Etfw">Tweets by AYPFM</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="ayp-network-block --facebook">
+                    <div class="fb-page" data-href="https://www.facebook.com/radioaypfm.tsaynaspur/" data-tabs="timeline" data-width="500" data-height="406" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/radioaypfm.tsaynaspur/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/radioaypfm.tsaynaspur/">RADIO AYP FM</a></blockquote></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="ayp-footer">
+        <div class="ayp-container ayp-footer-container">
+            <a href="#" class="ayp-footer-img-contianer ayp-footer-nav">
+                <img src="/img/footer/Group 424.svg" alt="footer logo" class="ayp-footer-logo">
+            </a>
+            <ul class="ayp-footer-nav">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Lien</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Accueil</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Programmes</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Qui Sommes Nous</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Publicité</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Club VIP</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">écrivez-Nous</a>
+                </li>
+            </ul>
+            <ul class="ayp-footer-nav">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Contacts</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <i class="fa fa-phone footer-icon" aria-hidden="true"></i>
+                        01 43 53 19 90
+                    </a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                         info@radio-aypfm.com
+                    </a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link --icon">
+                        <div class="ayp-footer-icon-container">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="ayp-footer-icon-text">
+                            Follow Us
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="ayp-footer-nav ">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Devenez Mobile</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="#" class="ayp-footer-item-link">
+                        <img src="img/footer/google-play-badge.png" alt="" class="ayp-footer-smm-img">
+                    </a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <img src="img/footer/download-on-the-app-store-apple-2.png" alt="" class="ayp-footer-smm-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <div class="sub-footer-item"></div>
+        <div class="sub-footer-item">Droits de reproduction et de diffusion réservès © AYP FM 2020</div>
+        <div class="sub-footer-item">site créé par web-isi</div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

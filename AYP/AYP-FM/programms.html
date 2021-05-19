@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYPProgramms</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="ayp-body --inner">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="1h6LzOni"></script>
+    <header class="ayp-header">
+        <div class="ayp-nav-container">
+            <div class="ayp-container ayp-nav-inner">
+                <a href="#" class="ayp-logo-a"><img src="img/logo.png" alt="page logo" class="ayp-logo"></a>
+                <div class="ayp-nav-container-inner">
+                    <ul class="ayp-nav-top">
+                        <li class="ayp-nav-top-item ayp-nav-top-left"><a class="ayp-nav-top-a" href="#"><img class="ayp-nav-logo" src="img/nav/phone.png" alt="phone logo">01 43 53 19 90</a></li>
+                        <li class="ayp-nav-top-item">
+                            <a class="ayp-nav-top-a" href="#">Follow Us 
+                                <img class="ayp-nav-logo" src="img/nav/facebook.png" alt="facebook logo">
+                                <img class="ayp-nav-logo" src="img/nav/twitter.png" alt="twitter logo">
+                                <img class="ayp-nav-logo" src="img/nav/instagram.png" alt="instagram logo">
+                            </a></li>
+                    </ul>
+                    <nav class="ayp-nav">
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Accueil
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Programmes
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Qui Sommes Nous
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Publicité
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Club VIP
+                            </a>
+                        </li>
+                        <li class="ayp-nav-item">
+                            <a href="#" class="ayp-nav-a">
+                                Écrivez-Nous
+                            </a>
+                        </li>
+                    </nav>
+                </div>
+                <button class="ayp-nav-burger-btn-container">
+                    <input type="checkbox" class="ayp-nav-btn-check" id='ayp-nav-check'>
+                    <label for="ayp-nav-check"  class="ayp-nav-btn-label">
+                        <p class="ayp-nav-btn-line"></p>
+                        <p class="ayp-nav-btn-line"></p>
+                        <p class="ayp-nav-btn-line"></p>
+                    </label>
+                </button>
+                </div>
+        </div>
+        <div class="ayp-header-info">
+            <div class="ayp-header-info-inner">
+                <h2 class="ayp-header-sub text-center ayp-container" id="ayp-container">Programes</h2>
+            </div>
+            <div class="ayp-header-info-icons">
+                <div class="ayp-header-info-icons-item ayp--blue">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/001-facebook.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+                <div class="ayp-header-info-icons-item ayp--light-blue">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/002-twitter.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+                <div class="ayp-header-info-icons-item ayp--pink">
+                    <a href="#" class="ayp-header-info-icons-a">
+                        <img src="img/header/003-instagram.svg" alt="" class="ayp-header-info-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ayp-audio-container">
+        <img src="img/audio/Group 164.png" alt="audio image" class="ayp-audio-img">
+    </div>
+    <section class="ayp-search">
+        <form class="ayp-search-form" action="get">
+            <input type="text" placeholder="Recherche par nom de programme, nom d'hôte" class="ayp-search-input">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+    </section>
+    <div class="ayp-programms-title-container ayp-container">
+        <h2 class="ayp-programms-title ayp-home-title">Nos Programes</h2>
+        <div class="ayp-programms-pagination-container ayp-pagination-container" id="--custom --top">
+            <div class="swiper-button-prev box-swiper-button-prev"></div>
+            <a href="#" class="ayp-programms-pagination-num active">1</a>
+            <a href="#" class="ayp-programms-pagination-num">2</a>
+            <a href="#" class="ayp-programms-pagination-num">3</a>
+            <div class="swiper-button-next box-swiper-button-next"></div>
+        </div> 
+    </div>    
+    <div class="ayp-container ayp-programms-container">
+        <table class="ayp-programms-table">
+            <tr class="ayp-programms-row">
+                <th class="ayp-programms-title --name">Nom</th>
+                <th class="ayp-programms-title --desc">Thèmes</th>
+                <th class="ayp-programms-title --broadcast">Jour De Diffusion</th>
+                <th class="ayp-programms-title --archive">Archives</th>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Artsakha Badoum</a></td>
+                <td class="ayp-programms-item --desc">L'épopée du Kharabagh</td>
+                <td class="ayp-programms-item --broadcast">Dernier lundi du mois à 11h</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Arts et Regards</a></td>
+                <td class="ayp-programms-item --desc">Invités : les acteurs du monde artistique</td>
+                <td class="ayp-programms-item --broadcast">Dernier lundi du mois à 11h</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Carte sur Table</a></td>
+                <td class="ayp-programms-item --desc">Débats et information</td>
+                <td class="ayp-programms-item --broadcast">Samedi à 10h15 / Redif : dimanche 9h15</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">La Chanson de la Semaine (Mer Yerkere)</a></td>
+                <td class="ayp-programms-item --desc">Présentation d'une chanson du répertoire 
+                    traditionnel et explication de texte</td>
+                <td class="ayp-programms-item --broadcast">Mardi à 9h40 / Redif : mercredi à 7h30</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Contes arméniens</a></td>
+                <td class="ayp-programms-item --desc">Lecture de contes arméniens traduits en français</td>
+                <td class="ayp-programms-item --broadcast">Lundi, Mardi, Mercredi, Jeudi, 
+                    Vendredi à 12h05</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Dédicaces</a></td>
+                <td class="ayp-programms-item --desc">Une chanson dédiée à la personne de son choix</td>
+                <td class="ayp-programms-item --broadcast">Lundi et Vendredi à 10h15</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">L'Église évangélique</a></td>
+                <td class="ayp-programms-item --desc">Le message de l'Église Évangélique</td>
+                <td class="ayp-programms-item --broadcast">Dimanche à 8h30</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Émission Littéraire</a></td>
+                <td class="ayp-programms-item --desc">Lecture de textes choisis extraits
+                    de la littérature arménienne</td>
+                <td class="ayp-programms-item --broadcast">Les trois premiers Lundi du mois à 11h</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Entreprendre</a></td>
+                <td class="ayp-programms-item --desc">La "success story" d'un professionnel Arménien</td>
+                <td class="ayp-programms-item --broadcast">Dernier Sam.du mois 13h10 
+                    Redif : premier 1er Mardi qui suit à 12h.</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Fenêtre sur l’année de l’Arménie</a></td>
+                <td class="ayp-programms-item --desc">Présentation des évènements de l’année
+                    de l’Arménie pour la semaine à venir</td>
+                <td class="ayp-programms-item --broadcast">Samedi à 13h10</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Au Fil des pages</a></td>
+                <td class="ayp-programms-item --desc">Un thème, des livres, des découvertes</td>
+                <td class="ayp-programms-item --broadcast">Samedi 9h40 / Redif : Dimanche à 12h</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Havadamk</a></td>
+                <td class="ayp-programms-item --desc">Les rites de la liturgie arménienne</td>
+                <td class="ayp-programms-item --broadcast">Mercredi à 9h30. / Redif : Jeudi à 7h30</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+            <tr class="ayp-programms-row">
+                <td class="ayp-programms-item --name"><a href="#" class="ayp-programms-item-link">Intch gue keren tèrtère</a></td>
+                <td class="ayp-programms-item --desc">Un extrait de la presse arménienne</td>
+                <td class="ayp-programms-item --broadcast">Jeudi à 13h</td>
+                <td class="ayp-programms-item --archive"><i class="fa fa-volume-up" aria-hidden="true"></i></td>
+            </tr>
+        </table>
+    </div>  
+    <!-- <div class="ayp-programms-pagination-container ayp-container">
+        <a href="#" class="ayp-programms-pagination-left">
+            <i class="fa fa-chevron-left ayp-arrow-left" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="ayp-programms-pagination-num">1</a>
+        <a href="#" class="ayp-programms-pagination-num">2</a>
+        <a href="#" class="ayp-programms-pagination-num">3</a>
+        <a href="#" class="ayp-programms-pagination-right">
+            <i class="fa fa-chevron-right ayp-arrow-right" aria-hidden="true"></i>
+        </a>
+    </div> -->
+    <div class="ayp-programms-pagination-container ayp-pagination-container ayp-container" id="--custom --bottom">
+        <div class="swiper-button-prev box-swiper-button-prev"></div>
+        <a href="#" class="ayp-programms-pagination-num active">1</a>
+        <a href="#" class="ayp-programms-pagination-num">2</a>
+        <a href="#" class="ayp-programms-pagination-num">3</a>
+        <div class="swiper-button-next box-swiper-button-next"></div>
+    </div> 
+    <footer class="ayp-footer">
+        <div class="ayp-container ayp-footer-container">
+            <a href="#" class="ayp-footer-img-contianer">
+                <img src="img/footer/Group 424.png" alt="footer logo" class="ayp-footer-logo">
+            </a>
+            <ul class="ayp-footer-nav">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Lien</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Accueil</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Programmes</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Qui Sommes Nous</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Publicité</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">Club VIP</a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">écrivez-Nous</a>
+                </li>
+            </ul>
+            <ul class="ayp-footer-nav">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Contacts</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <i class="fa fa-phone footer-icon" aria-hidden="true"></i>
+                        01 43 53 19 90
+                    </a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                         info@radio-aypfm.com
+                    </a>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="" class="ayp-footer-item-link">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        Follow Us
+                    </a>
+                </li>
+            </ul>
+            <ul class="ayp-footer-nav">
+                <li class="ayp-footer-item --title">
+                    <h3 class="ayp-footer-title">Devenez Mobile</h3>
+                </li>
+                <li class="ayp-footer-item">
+                    <a href="#" class="ayp-footer-item-link">
+                        <img src="img/footer/google-play-badge.png" alt="" class="ayp-footer-smm-img">
+                    </a>
+                </li>
+                <li class="ayp-footer-link">
+                    <a href="" class="ayp-footer-item-link">
+                        <img src="img/footer/download-on-the-app-store-apple-2.png" alt="" class="ayp-footer-smm-img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <div class="sub-footer-item"></div>
+        <div class="sub-footer-item">Droits de reproduction et de diffusion réservès © AYP FM 2020</div>
+        <div class="sub-footer-item">site créé par web-isi</div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
